@@ -79,7 +79,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link {{ (request()->segment(2) == '#') ? 'active' : '' }}">
+                    <a href="/utiliti/syarikat/senarai" class="nav-link {{ (request()->segment(2) == 'syarikat') ? 'active' : '' }}">
                     <i class="fas fa-building nav-icon"></i>
                     <p>Syarikat</p>
                     </a>
