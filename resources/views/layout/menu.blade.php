@@ -72,6 +72,18 @@
                     <p>Senarai Hak Milik</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link {{ (request()->segment(2) == '#') ? 'active' : '' }}">
+                    <i class="nav-icon fas fa-landmark"></i>
+                    <p>Ruang Sewaan</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link {{ (request()->segment(2) == '#') ? 'active' : '' }}">
+                    <i class="fas fa-building nav-icon"></i>
+                    <p>Syarikat</p>
+                    </a>
+                </li>
             </ul>
         </li>
         @endif 

@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'URLify' => array($vendorDir . '/jbroadway/urlify'),
-    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
 );
